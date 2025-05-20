@@ -1,0 +1,46 @@
+:root {
+    
+    --color1: #0077FF;
+    --color2: #3D2C8D;
+    --color3: #FF6B6B;
+    --color4: #222831;
+    --color5: #1b1f27;
+
+    background-color: var(--color4);
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: var(--color5);
+}
+
+.nav-list li {
+    float: left;
+    color: var(--color1);
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.nav-list li a {
+    display: block;
+    color: var(--color1);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-list li a:hover {
+    background-color: var(--color4);
+}
+
+img {
+    margin: 0;
+    padding: 0;
+}
