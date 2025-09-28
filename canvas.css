@@ -1,0 +1,15 @@
+:root {
+    
+    --color1: #0077FF;
+    --color2: #3D2C8D;
+    --color3: #FF6B6B;
+    --color4: #222831;
+    --color5: #1b1f27;
+
+    background-color: var(--color4);
+    margin: 0;
+}
+
+#mainCanvas {
+    width: 100%;
+}

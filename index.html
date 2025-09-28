@@ -11,39 +11,60 @@
   
   <body>
     <main>
-      <!-- <nav>
-        <ul class="nav-list">
-          <li style="margin-right: 15px"><a><img class="logo" width="20px" src="graphics/img/AR_icon.png"></a></li>
-          <li><a href="">Projects</a></li>
-          <li><a href="">Contact Info</a></li>
-        </ul>
-      </nav> -->
 
-      <div class="title">
-        <a><img class="logo" src="graphics/img/AR_icon.png"></a>
+      <nav id="navbar">
+        <a href="index.html"><img id="logo" src="graphics/img/AR_icon.png"></a>
+        <div id="nav-menus"> <a>contact</a> </div>
+      </nav>
 
-        <h1 style="display: inline; margin-left: 50px;">Alex Rouman</h1>
-
+      <div id="introduction">
+        <h1 class="title">Welcome to my Portfolio!</h1>
+        <br>
+        <p>My name is <b>Alex Rouman</b>. I am a <b>Computer Science</b> student at <b>Eastern Michigan University</b>. I also have a minor in <b>Manufacturing</b>. This is a showcase of everything from 3D modeling to software projects.</p>
       </div>
       
       <div class="section">
-        <h2>Code Projects</h2>
-
-        <div class="left">
-          test
+        <div class="project">
+          <img class="projectImage" src="graphics/img/gallery/tfc.png" alt="Project Image">
+          <h2 class="projectTitle">Terminal Flash Cards</h2>
+          <p class="projectDescription">A simple flash card program that runs in the terminal. Built with Python.</p>
         </div>
-
-        <div class="right">
-          test
+        <br>
+        <div class="github-link">
+          Check it out on Github! 
+          <a href="https://github.com/alxroum/terminal_flashcards" target="github"> 
+            <img class="github-icon" src="graphics/img/github-mark.png" alt="GitHub Logo">
+          </a>
         </div>
       </div>
 
       <div class="section">
-        <h2>3D Models</h2>
+        <div class="gallery">
+          <table>
+            <tr>
+              <td>
+                <img class="galleryImage" src="graphics/img/gallery/JeepBlender.png" alt="Low Poly Jeep Model">
+              </td>
+              <td>
+                <img class="galleryImage" src="graphics/img/gallery/PlaneBlender.png" alt="Low Poly Plane Model">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img class="galleryImage" src="graphics/img/gallery/TruckBlender.png" alt="Low Poly Jeep Model">
+              </td>
+            </tr>
+          </table>
+        </div>
+
       </div>
 
       <div class="section">
-        <h2>Logos</h2>
+        <div class="project">
+          <img class="projectImage" src="graphics/img/gallery/openToneLogo.png" alt="Project Image">
+          <h2 class="projectTitle">Open Tone</h2>
+          <p class="projectDescription">A work in progress collaborative project with the goal of a comprehensive sound player and equalizer. Mainly developed using C++. </p>
+        </div>
       </div>
 
 
