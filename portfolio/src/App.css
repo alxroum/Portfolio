@@ -225,7 +225,7 @@ h2 {
 #hero-cta { display: flex; gap: 1rem; opacity: 0; animation: up 0.55s 0.55s forwards; }
 
 /* ── ABOUT ── */
-#about, #projects, #experience, #contact{ text-align: left;} /* make sure sections are left aligned */
+#about, #projects, #experience, #contact, #other{ text-align: left;} /* make sure sections are left aligned */
 #about-grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 4rem; }
 
 #about-text p { font-size: 0.92rem; color: var(--muted); line-height: 1.9; margin-bottom: 1rem; }
@@ -268,6 +268,7 @@ h2 {
   transition: all 0.2s;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 .card::before {
   content: '';

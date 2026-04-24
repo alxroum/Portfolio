@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Hardware Rental Platform",
+        "icon": "",
+        "desc": "Full-stack group project for browsing and reserving equipment online. Includes secure login, user accounts, inventory management, and order tracking.",
+        "stack": ["React", "SQL", "JS"],
+        "links": [{ "label": "GitHub ->", "href": "https://github.com/alxroum" }]
+    },
+    {
+        "title": "Flashcards Website",
+        "icon": "",
+        "desc": "A terminal-styled flashcard app built with React. Supports file-based card importing, structured text parsing, and client-side state management for dynamic navigation.",
+        "stack": ["React", "JS"],
+        "links": [{ "label": "GitHub ->", "href": "https://github.com/alxroum" }]
+    },
+    {
+        "title": "2D Particle Simulation",
+        "icon": "",
+        "desc": "A physics-based particle simulation written in Java. Implements accurate motion equations using external libraries and APIs to model real-world object behavior.",
+        "stack": ["Java"],
+        "links": []
+    }
+]
